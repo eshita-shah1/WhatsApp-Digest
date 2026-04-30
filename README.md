@@ -6,7 +6,7 @@
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-green?logo=googlechrome)](https://github.com/eshitashah/WhatsApp-Digest)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-![Demo](Demo_Final.gif)
+![Demo](assets/demo.gif)
 
 ---
 
@@ -35,10 +35,10 @@ WhatsApp groups are full of important information — but it gets lost in noise.
 ##  Before vs After
 
 ### Before (Raw WhatsApp Chat)
-![Before](Before_IMG.jpg)
+![Before](assets/before.jpg)
 
 ### After (AI Categorized View)
-![After](After_IMG.jpg)
+![After](assets/after.jpg)
 
 ---
 
