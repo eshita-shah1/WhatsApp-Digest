@@ -1,13 +1,13 @@
 # WhatsApp-Digest 🚀
 
-![Demo](demo.gif)
+![Demo](Demo_Final.gif)
 
 ---
 
 ## 📸 Before vs After
 
 ### Before (Raw WhatsApp Chat)
-![Before](before.png)
+![Before](Before_IMG.jpg)
 
 ### After (AI Categorized View)
-![After](after.png)
+![After](After_IMG.jpg)
