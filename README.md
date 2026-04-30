@@ -1,2 +1,13 @@
-# WhatsApp-Digest
-“Never miss important messages — AI Chrome extension that extracts and categorizes WhatsApp group chats into actionable insights.”
+# WhatsApp-Digest 🚀
+
+![Demo](demo.gif)
+
+---
+
+## 📸 Before vs After
+
+### Before (Raw WhatsApp Chat)
+![Before](before.png)
+
+### After (AI Categorized View)
+![After](after.png)
