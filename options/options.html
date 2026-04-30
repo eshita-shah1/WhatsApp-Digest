@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>WhatsApp Summarizer Settings</title>
+    <style>body{font-family:Segoe UI,Roboto,Arial;padding:12px}label{display:block;margin-top:8px}</style>
+  </head>
+  <body>
+    <h3>Settings</h3>
+    <label>API Key (Groq)
+      <input id="apiKey" type="password" style="width:100%" placeholder="gsk_..." />
+      <div class="meta">Enter your Groq API key (starts with gsk_...).</div>
+    </label>
+
+    <label style="margin-top:8px">
+      <input id="mockMode" type="checkbox" /> Enable mock/offline mode (no API key required)
+    </label>
+
+    <label style="margin-top:8px">Llama fallback endpoint (optional)
+      <input id="llamaEndpoint" type="text" placeholder="https://my-ollama.local/api/generate" style="width:100%" />
+      <div class="meta">Provide a full URL for your Llama/OpenAI-compatible endpoint if you want a fallback.</div>
+    </label>
+
+    <label style="margin-top:8px">Model name (for Groq)
+      <input id="llamaModel" type="text" placeholder="llama-3.3-70b-versatile" style="width:100%" />
+      <div class="meta">For Groq, use <strong>llama-3.3-70b-versatile</strong>. Leave blank to use this default.</div>
+    </label>
+
+    <label>
+      <input type="radio" name="store" value="persist" id="storePersist" /> Persist locally (recommended)
+    </label>
+    <label>
+      <input type="radio" name="store" value="ephemeral" id="storeEphemeral" /> Ephemeral for this browser session only
+    </label>
+
+    <div style="margin-top:12px">
+      <button id="save">Save</button>
+      <button id="clear">Clear</button>
+      <button id="testKey" style="margin-left:8px">Test key</button>
+      <span id="testResult" style="margin-left:8px;font-size:13px;color:#333"></span>
+    </div>
+
+    <script src="options.js"></script>
+  </body>
+</html>
